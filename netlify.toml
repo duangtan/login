@@ -1,6 +1,6 @@
 [build]
-  publish = "dist/login-app"  # ระบุโฟลเดอร์ที่ต้องการเผยแพร่
-  command = "ng build --prod"  # คำสั่งในการ build โปรเจค
+  publish = "dist/login-website/browser"  # ระบุโฟลเดอร์ที่ต้องการเผยแพร่
+  command = "ng build --configuration production"  # คำสั่งในการ build โปรเจค
 
 [[redirects]]
   from = "/*"
